@@ -21,8 +21,7 @@ print("""
       \____/\__,_|\__, |\___|_|  /_/
                   |___/
               ADDED NEW METHOD 
-              
-Atacando porta 💥
+              Atacando porta 💥
 """)
 
 time.sleep(3.5)
