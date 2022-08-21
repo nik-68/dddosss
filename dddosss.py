@@ -2,10 +2,15 @@ import threading
 import random
 import time
 import socket
-import sys
 import requests
 import socks
 import ssl
+import os,sys
+
+os.system("clear")
+print("З А Г Р У З К А....")
+time.sleep(1.5)
+os.system("clear")
 
 print('''\r\n                                     
 
