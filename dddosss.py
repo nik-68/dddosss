@@ -14,14 +14,15 @@ import os, sys
 
 os.system("clear")
 print("""
-     __      ANONYMOUS       _____
-    / /  __ _ _   _  ___ _  |___  |
-   / /  / _` | | | |/ _ \ '__| / /
-  / /__| (_| | |_| |  __/ |   / /
-  \____/\__,_|\__, |\___|_|  /_/
-              |___/
-          ADDED NEW METHOD 
-          Atacando porta 💥
+         __      ANONYMOUS       _____
+        / /  __ _ _   _  ___ _  |___  |
+       / /  / _` | | | |/ _ \ '__| / /
+      / /__| (_| | |_| |  __/ |   / /
+      \____/\__,_|\__, |\___|_|  /_/
+                  |___/
+              ADDED NEW METHOD 
+              
+Atacando porta 💥
 """)
 
 time.sleep(3.5)
@@ -67,5 +68,5 @@ def attack():
         global attack_num
         attack_num += 1
         print(attack_num)
-        print('Atacando porta 💥')
+        print("[ + ] Attacking Server IP => ",ip," Port ",port,"!")
         s.close()
