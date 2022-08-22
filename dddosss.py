@@ -33,6 +33,11 @@ import os, sys, socket, threading, random
 def clear():
 	os.system('cls' if os.name=='nt' else 'clear')
 #########################################################################
+#ip
+url = input(" Url: => ")
+url_chek =requests.get(url)
+ip = socket.gethostbyname(url.replace("https://","").replace("http://",""))
+print(ip)
 #########################################################################
 # MAIN MENU 
 print()
