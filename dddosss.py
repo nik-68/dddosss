@@ -33,6 +33,7 @@ import os, sys, socket, threading, random
 def clear():
 	os.system('cls' if os.name=='nt' else 'clear')
 #########################################################################
+time.sleep(2.5)
 #ip
 url = input(" Url: => ")
 url_chek =requests.get(url)
