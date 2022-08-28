@@ -15,6 +15,7 @@ import sys, glob, time, requests, ssl, webbrowser
 import bz2, datetime, wget, json, cfscrape, urllib3
 from colorama import Fore
 from time import sleep
+from scapy.all import *
 import base64 as b64
 import socket, threading
 from threading import Thread
