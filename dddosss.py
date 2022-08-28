@@ -14,8 +14,8 @@ from random import choice, randint
 from socket import socket, AF_INET, SOCK_STREAM, error
 import sys, glob, time, requests, ssl, webbrowser
 import bz2, datetime, wget, json, cfscrape, urllib3
-ffrom colorama import Fore
-ffrom time import sleep
+from colorama import Fore
+from time import sleep
 import base64 as b64
 from scapy.all import *
 import socket, threading
