@@ -17,7 +17,6 @@ import bz2, datetime, wget, json, cfscrape, urllib3
 from colorama import Fore
 from time import sleep
 import base64 as b64
-from scapy.all import *
 import socket, threading
 from threading import Thread
 from random import randint
