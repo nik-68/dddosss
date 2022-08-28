@@ -21,7 +21,6 @@ import socket, threading
 from threading import Thread
 from random import randint
 import random
-import getpasss
 import re
 import cfscrape
 import time
