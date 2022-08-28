@@ -20,6 +20,7 @@ import base64 as b64
 import socket, threading
 from threading import Thread
 from random import randint
+from scapy.all import *
 import random
 import re
 import cfscrape
