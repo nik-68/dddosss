@@ -8,7 +8,6 @@ b='\033[1m'
 ##############
 import threading
 from threading import Thread, Timer
-import requests
 from concurrent.futures import ThreadPoolExecutor
 from random import choice, randint
 from socket import socket, AF_INET, SOCK_STREAM, error
@@ -20,7 +19,7 @@ import base64 as b64
 import socket, threading
 from threading import Thread
 from random import randint
-from scapy.all import *
+import requests, urllib3
 import random
 import re
 import cfscrape
